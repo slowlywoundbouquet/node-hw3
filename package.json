@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "description": "weather api",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "weather": "node -r dotenv/config weather.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
